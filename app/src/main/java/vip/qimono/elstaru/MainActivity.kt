@@ -20,7 +20,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 
 import androidx.window.core.layout.WindowWidthSizeClass
-
+// TODO use WindowSizeClass instead of the deprecated WindowWidthSizeClass
+// import androidx.window.core.layout.WindowSizeClass
+// and use it like this
+// Check if width is at least Medium (600dp)
+//val isMediumWidth = windowSizeClass.isWidthAtLeastBreakpoint(WindowSizeClass.WIDTH_DP_MEDIUM_LOWER_BOUND)
+// Check if width is at least Expanded (840dp)
+//val isExpandedWidth = windowSizeClass.isWidthAtLeastBreakpoint(WindowSizeClass.WIDTH_DP_EXPANDED_LOWER_BOUND)
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold

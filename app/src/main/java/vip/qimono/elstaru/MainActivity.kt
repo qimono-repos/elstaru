@@ -16,8 +16,8 @@ import androidx.compose.material3.adaptive.currentWindowAdaptiveInfoV2
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import android.compose.ui.text.style.TextAlign
-import android.compose.ui.unit.sp
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
 
 import androidx.window.core.layout.WindowWidthSizeClass
 
